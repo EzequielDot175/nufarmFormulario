@@ -1,0 +1,76 @@
+<section >
+			<h1>Domicio Entrega</h1>
+			<form ng-submit="basics();">
+				<label for="">Empresa</label>
+				<input type="text" ng-model="company">
+				
+				<br>
+
+				<label for="">Direccion</label>
+				<input type="text" ng-model="direction">
+
+				<br>
+
+				<label for="">Nombre</label>
+				<input type="text" ng-model="name">
+
+				<br>
+
+				<label for="">Ciudad</label>
+				<input type="text" ng-model="city">
+
+				<br>
+
+				<label for="">Apellido</label>
+				<input type="text" ng-model="lastname">
+
+				<br>
+
+				<label for="">Codigo Postal</label>
+				<input type="text" ng-model="cod">
+
+				<br>
+
+				<label for="">Telefono</label>
+				<input type="text" ng-model="phone">
+
+				<br>
+
+				<label for="">Provincia</label>
+				<select name="" id="" ng-model="province" ng-options=" item for item in optionProvinces">
+					<option value="">Seleccionar provincia</option>
+				</select>
+
+				<br>
+
+				<input type="submit" value="Guardar">
+			</form>
+
+
+			<form ng-submit="uploadLogo();">
+				<h1>Logo de empresa</h1>
+				<img ng-src="{{logoEmpresa}}" preloader-img alt="" >
+				<h1>Seleccionar imagen</h1>
+				<input type="text" value="nombre de imagen" preloader-text>
+				<input type="file" name="logo" accept="image/*" preloader-input nv-file-select uploader="logo">
+				<input type="submit" value="subir imagen">
+			</form>
+
+			<form ng-cloak>
+				<h1>Seleccionar otros formatos de logo</h1>
+				<input type="file" nv-file-select uploader="otherFiles" >
+				<button ng-click="ver();">Ver scope</button>
+				<ul ng-repeat="(key, value) in otherFiles.queue | filter:addAlias"  >
+					<li>
+						<div>
+							{{value.file.name}} <br> <button ng-click="value.upload();">Upload</button> <br> <button ng-click="value.remove();">Delete</button> 
+						</div>
+					</li>
+				</ul>
+			</form>
+
+
+
+
+			<button>Confirmar</button>
+		</section>

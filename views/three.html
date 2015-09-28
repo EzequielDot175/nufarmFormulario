@@ -1,0 +1,39 @@
+<section>
+	<h1>Datos de usuario</h1>
+	
+	<form ng-submit="editPreferences()">
+		
+		<h3>Deportes de preferencia</h3>
+		<ul>
+			<li ng-repeat="(key,item) in sports">
+				<label for="">{{key}}</label>
+				<input  type="checkbox" ng-model="sports[key]" >
+			</li>
+		</ul>
+	
+		<h3>Actividades recreativas</h3>
+		<ul>
+			<li ng-repeat="(key,item) in actividades">
+				<label for="">{{key}}</label>
+				<input  type="checkbox" ng-model="actividades[key]" >
+			</li>
+		</ul>
+		
+		<h3>Redes Sociales</h3>
+		<ul>
+			<li ng-repeat="(key,item) in social">
+				<label for="">{{key}}</label>
+				<input  type="checkbox" ng-model="social[key]" >
+			</li>
+		</ul>
+	
+		<h1>Equipo de Futbol</h1>
+		<select name="" id="" ng-model="userFutbol" ng-options="value for value in futbol">
+			<option value="">Seleccione su equipo de futbol</option>
+		</select>
+		
+		<br>
+
+		<input type="submit">
+	</form>
+</section>

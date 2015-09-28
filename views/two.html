@@ -1,0 +1,66 @@
+<section>
+		<h1>Datos de usuarios</h1>
+	<form ng-submit="submitData();">
+		
+		<label for="">Cargo</label>
+		<input type="text" ng-model="appointment">
+
+		<br>
+		
+		<label for="">Numero de telefono/celular</label>
+		<input type="text" ng-model="cellphone">
+
+		<br>
+	
+		<label for="">Fecha de nacimiento</label>
+		<input type="text" ng-model="birthday">
+
+		<br>
+	
+		<label for="">Compania</label>
+		<input type="text" ng-model="company">
+
+		<br>
+	
+		<label for="">Email</label>
+		<input type="text" ng-model="mail">
+
+		<br>
+
+		<label for="">Domicilio de empresa</label>
+		<input type="text" ng-model="companyAdress">
+
+		<br>
+
+		<label for="">Estado Civil</label>
+		<input type="text" ng-model="civilStatus">
+
+		<br>
+	
+		<label for="">Desea recibir comunicados por sms</label>
+		<input type="checkbox" ng-model="sms" >
+		
+		<br>
+
+		<input type="submit" value="Guardar">	
+	</form>
+
+
+	<form ng-submit="editPassword()">
+		<h1>Accesos: usuario y clave</h1>
+
+		<label for="">Usuario</label>
+		<input type="text" ng-model="mail" disabled="">
+
+		<br>
+
+		<label for="">Cambiar Clave</label>
+		<input type="password" ng-model="password">
+
+		<br>
+
+		<input type="submit" value="Guardar">	
+
+	</form>
+	
+</section>

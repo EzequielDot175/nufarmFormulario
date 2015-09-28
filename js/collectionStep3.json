@@ -1,0 +1,63 @@
+{
+	"sports": [
+		"Fútbol",
+		"Tenis",
+		"Rugby",
+		"Correr",
+		"Golf",
+		"Automovilismo",
+		"Boxeo"
+	],
+	"futbol" : [
+		"Aldosivi",
+		"Argentinos Juniors",
+		"Arsenal",
+		"Atlético Rafaela",
+		"Banfield",
+		"Belgrano",
+		"Boca Juniors",
+		"Colón",
+		"Crucero del Norte",
+		"Defensa y Justicia",
+		"Estudiantes",
+		"Gimnasia La Plata",
+		"Godoy Cruz",
+		"Huracán",
+		"Independiente",
+		"Lanús",
+		"Newell's Old Boys",
+		"Nueva Chicago",
+		"Olimpo",
+		"Quilmes",
+		"Racing Club",
+		"River Plate",
+		"Rosario Central",
+		"San Lorenzo",
+		"San Martín",
+		"San Juan",
+		"Sarmiento",
+		"Temperley",
+		"Tigre",
+		"Unión Santa Fe",
+		"Vélez Sarsfield"
+	],
+	"social" : [
+		"Facebook",
+		"Linkedin",
+		"Google+",
+		"Instagram",
+		"Twitter",
+		"Pinterest",
+		"Foursquare"
+	],
+	"actividades" : [
+		"Fútbol",
+		"Tenis",
+		"Golf",
+		"Fotografia",
+		"Lectura",
+		"Pesca",
+		"Musica",
+		"Otro"
+	]
+}
