@@ -44,6 +44,9 @@ app.service('ajax', ['$http',function (ajax) {
 				});
 
 				return string;
+			},
+			updateStep3: function(params,callback){
+				this.post({method: 'editStep3', data: params},callback);
 			}
 
 

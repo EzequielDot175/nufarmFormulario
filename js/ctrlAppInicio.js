@@ -105,7 +105,6 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 			scp.logo = '../marketingNet/images-clientes/'+a.logo;
 		};
 
-		console.info('User :', a);
 
 	});
 

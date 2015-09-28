@@ -6,7 +6,6 @@ app.controller('ctrlAppTwo', ['$scope','ajax', function(scp,ajax){
 	
 
 	srv.getUser(function(data){
-		console.info('Reporting user:', data);
 		
 		scp.appointment   = data.cargorelevado;
 		scp.cellphone     = data.telefono;
