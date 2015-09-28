@@ -89,14 +89,11 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 	});
 
 
-	// 	srv.user = 10;
 	srv.getUser(function(a){
 		scp.currentUser = a;
 		scp.company   = a.strEmpresa;
 		scp.direction = a.direccion;
-		scp.name      = a.strNombre;
 		scp.city      = a.ciudad;
-		scp.lastname  = a.strApellido;
 		scp.cod       = a.cp;
 		scp.phone     = a.telefono;
 		scp.province  = a.provincia;
@@ -112,8 +109,6 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 		var user = {
 			company   : scp.company  ,
 			direction : scp.direction,
-			name      : scp.name     ,
-			lastname  : scp.lastname ,
 			city  	  : scp.city 	 ,
 			cod       : scp.cod      ,
 			phone     : scp.phone    ,

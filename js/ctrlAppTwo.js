@@ -13,16 +13,20 @@ app.controller('ctrlAppTwo', ['$scope','ajax', function(scp,ajax){
 		scp.company       = data.compania;
 		scp.mail          = data.strEmail;
 		scp.companyAdress = data.direccion;
+		scp.name 		  = data.strNombre;
+		scp.lastName	  = data.strApellido;
 		scp.civilStatus   = data.estadocivil;
 		scp.sms           = Boolean(parseInt(data.sms));
 		scp.password      = "";
-	
+
 	});
 
 
 	scp.submitData = function(){
 		var params = {
 			appointment  : scp.appointment  ,
+			name  		 : scp.name  		,
+			lastName  	 : scp.lastName  	,
 			cellphone    : scp.cellphone    ,
 			birthday     : scp.birthday     ,
 			company      : scp.company      ,
@@ -32,7 +36,7 @@ app.controller('ctrlAppTwo', ['$scope','ajax', function(scp,ajax){
 			sms          : scp.sms          
 		}
 
-		console.info('Reporting params:', params);
+
 		srv.editTwo(params,function(a){
 			if (a.trim() == 'true') {
 				alert('Datos modificados correctamente');

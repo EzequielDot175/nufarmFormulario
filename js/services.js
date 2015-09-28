@@ -47,6 +47,11 @@ app.service('ajax', ['$http',function (ajax) {
 			},
 			updateStep3: function(params,callback){
 				this.post({method: 'editStep3', data: params},callback);
+			},
+			saveStep4 : function(params,callback){
+				var extend = params;
+					extend.method = "editStep4";
+				this.post(params,callback);
 			}
 
 

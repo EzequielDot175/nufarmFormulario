@@ -13,28 +13,15 @@ Auth::check();
 	
 	<section ng-controller="ctrlAppInicio">
 		<h1>Domicio Entrega</h1>
-		<label for="">Empresa</label>
-		<input type="text" ng-model="company">
-
-		<br>
+		
 
 		<label for="">Direccion</label>
 		<input type="text" ng-model="direction">
 
 		<br>
 
-		<label for="">Nombre</label>
-		<input type="text" ng-model="name">
-
-		<br>
-
 		<label for="">Ciudad</label>
 		<input type="text" ng-model="city">
-
-		<br>
-
-		<label for="">Apellido</label>
-		<input type="text" ng-model="lastname">
 
 		<br>
 
@@ -92,12 +79,22 @@ Auth::check();
 	<section ng-controller="ctrlAppTwo">
 		<h1>Datos de usuarios</h1>
 
+		<label for="">Nombre</label>
+		<input type="text" ng-model="name">
+
+		<br>
+		
+		<label for="">Apellido</label>
+		<input type="text" ng-model="lastName">
+
+		<br>
+
 		<label for="">Cargo</label>
 		<input type="text" ng-model="appointment">
 
 		<br>
 
-		<label for="">Numero de telefono/celular</label>
+		<label for="">Numero de celular</label>
 		<input type="text" ng-model="cellphone">
 
 		<br>
@@ -117,15 +114,6 @@ Auth::check();
 
 		<br>
 
-		<label for="">Domicilio de empresa</label>
-		<input type="text" ng-model="companyAdress">
-
-		<br>
-
-		<label for="">Estado Civil</label>
-		<input type="text" ng-model="civilStatus">
-
-		<br>
 
 		<label for="">Desea recibir comunicados por sms</label>
 		<input type="checkbox" ng-model="sms" >
@@ -195,6 +183,50 @@ Auth::check();
 		<br>
 
 		<input type="submit" ng-click="editPreferences()">
+	</section>
+
+
+	<section ng-controller="ctrlAppFourth">
+		<h1>DATOS DE EMPRESA</h1>
+
+		<label for="">Empresa</label>
+		<input type="text" ng-model="company">
+
+		<label for="">Direccion</label>
+		<input type="text" ng-model="direction">
+
+		<label for="">Ciudad</label>
+		<input type="text" ng-model="city">
+
+		<label for="">Codigo Postal</label>
+		<input type="text" ng-model="cp">
+
+		<label for="">Telefono</label>
+		<input type="text" ng-model="phone">
+
+		<label for="">Provincia</label>
+		<select name="" id="" ng-model="province" ng-options=" item for item in optionProvinces">
+			<option value="">Seleccionar provincia</option>
+		</select>
+
+		<br>
+
+		<div class="vendedor" ng-repeat="(key, value) in seller">
+			<h1>Vendedor {{value.num}}</h1>
+			<label for="">Nombre</label>
+			<input type="text" ng-model="seller[key].name">
+
+			<label for="">Email</label>
+			<input type="text" ng-model="seller[key].mail">
+
+			<label for="">Celular</label>
+			<input type="text" ng-model="seller[key].cellphone">
+		</div>
+
+	
+		<button ng-click="saveStep4();">Guardar</button>
+
+
 	</section>
 
 
