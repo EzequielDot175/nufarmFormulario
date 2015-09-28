@@ -28,6 +28,22 @@ app.service('ajax', ['$http',function (ajax) {
 			},
 			getStep3 : function(callback){
 				ajax.get('js/collectionStep3.json').success(callback);
+			},
+			ifTrue: function(collection){
+				var string = "";
+				var init = 0;
+				angular.forEach(collection, function(value, key) {
+					if (value) {
+						if (init == 0) {
+							string += key;
+							init++;
+						}else{
+							string += ","+key;
+						}			
+					};
+				});
+
+				return string;
 			}
 
 

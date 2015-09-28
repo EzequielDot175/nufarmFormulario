@@ -1,13 +1,23 @@
 app.controller('ctrlAppThree', ['$scope','ajax', function(scp, ajax){
+	
+	scp.auth           = [];
+	
+	scp.sports         = {};
+	scp.social         = {};
+	scp.actividades    = {};
+	scp.futbol         = [];
+	scp.other_activity = [];
 
-
-	scp.sports = {};
-	scp.social = {};
-	scp.actividades = {};
-	scp.futbol = [];
 
 	var srv = ajax.formInit();
 
+
+		/**
+		 * Auth Info
+		 */
+		srv.getUser(function(a){
+			console.info('Reporting :', a);
+		});
 
 		srv.getStep3(function(a){
 			/**
@@ -37,6 +47,7 @@ app.controller('ctrlAppThree', ['$scope','ajax', function(scp, ajax){
 			});
 
 
+
 		});
 
 
@@ -45,11 +56,18 @@ app.controller('ctrlAppThree', ['$scope','ajax', function(scp, ajax){
 	}
 	
 
+
 	scp.editPreferences = function(){
-		console.info('Reporting :', scp.sports);	
-		console.info('Reporting :', scp.social);	
-		console.info('Reporting :', scp.actividades);	
-		console.info('Reporting :', scp.userFutbol);	
+
+		var sports = srv.ifTrue(scp.sports);
+		var social = srv.ifTrue(scp.social);
+		var actividades = srv.ifTrue(scp.actividades);
+		console.info('Reporting sports:', sports);	
+		console.info('Reporting social:', social);	
+		console.info('Reporting actividades:', actividades);	
+		console.info('Reporting userFutbol:', scp.userFutbol);
+		
+		
 	}
 
 }]);
