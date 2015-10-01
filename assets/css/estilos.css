@@ -1,2 +1,1202 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}h1,h2,h3,h4,h5,p{margin:0;padding:0;line-height:14px}.col-xs-1,.col-sm-1,.col-md-1,.col-lg-1,.col-xs-2,.col-sm-2,.col-md-2,.col-lg-2,.col-xs-3,.col-sm-3,.col-md-3,.col-lg-3,.col-xs-4,.col-sm-4,.col-md-4,.col-lg-4,.col-xs-5,.col-sm-5,.col-md-5,.col-lg-5,.col-xs-6,.col-sm-6,.col-md-6,.col-lg-6,.col-xs-7,.col-sm-7,.col-md-7,.col-lg-7,.col-xs-8,.col-sm-8,.col-md-8,.col-lg-8,.col-xs-9,.col-sm-9,.col-md-9,.col-lg-9,.col-xs-10,.col-sm-10,.col-md-10,.col-lg-10,.col-xs-11,.col-sm-11,.col-md-11,.col-lg-11,.col-xs-12,.col-sm-12,.col-md-12,.col-lg-12,.container-fluid{padding-left:0px;padding-right:0px}a:hover{text-decoration:none}ul,li{text-decoration:none;list-style:none;margin:0;padding:0}:focus{outline:0}.background-cover{background-repeat:no-repeat;background-size:cover;background-position:center}li:focus{background-color:transparent !important;border-color:none}li>a:focus{background-color:transparent !important;border-color:none}.navbar-collapse{padding-right:0px;padding-left:0px}.nav-link-active{opacity:0.5}@font-face{font-family:'BrooklynSamuelsFive-Bold';src:url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.eot");src:url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.woff2") format("woff2"),url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.woff") format("woff"),url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.ttf") format("truetype"),url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.svg#brooklyn_samuelsno5_bold") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'BrooklynSamuelsFive-Fat';src:url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.eot");src:url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.woff2") format("woff2"),url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.woff") format("woff"),url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.ttf") format("truetype"),url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.svg#brooklyn_samuelsno5_fat") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'BrandonGrotesque-Light';src:url("../fonts/BrandonGrotesque-Light.eot");src:url("../fonts/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"),url("../fonts/BrandonGrotesque-Light.woff") format("woff"),url("../fonts/BrandonGrotesque-Light.ttf") format("truetype"),url("../fonts/BrandonGrotesque-Light.svg#BrandonGrotesque-Light") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'Brandon_reg';src:url("../fonts/brandon_reg-webfont.eot");src:url("../fonts/brandon_reg-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/brandon_reg-webfont.woff2") format("woff2"),url("../fonts/brandon_reg-webfont.woff") format("woff"),url("../fonts/brandon_reg-webfont.ttf") format("truetype"),url("../fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'Open_Sans_Regular';src:url("../fonts/opensans-regular-webfont.eot");src:url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/opensans-regular-webfont.woff2") format("woff2"),url("../fonts/opensans-regular-webfont.woff") format("woff"),url("../fonts/opensans-regular-webfont.ttf") format("truetype"),url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'robotoregular';src:url("../fonts/roboto-regular-webfont.eot");src:url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"),url("../fonts/roboto-regular-webfont.woff2") format("woff2"),url("../fonts/roboto-regular-webfont.woff") format("woff"),url("../fonts/roboto-regular-webfont.ttf") format("truetype"),url("../fonts/roboto-regular-webfont.svg#robotoregular") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'Gotham-Light';src:url("../fonts/Gotham-Light.eot");src:url("../fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"),url("../fonts/Gotham-Light.woff") format("woff2"),url("../fonts/Gotham-Light.woff") format("woff"),url("../fonts/Gotham-Light.otf"),url("../fonts/Gotham-Light.svg#robotoregular") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'Gotham-Medium';src:url("../fonts/Gotham-Medium.eot");src:local("Ôÿ║"),url("../fonts/Gotham-Medium.woff") format("woff"),url("../fonts/Gotham-Medium.ttf") format("truetype"),url("../fonts/Gotham-Medium.svg") format("svg");font-weight:normal;font-style:normal}@font-face{font-family:'Gotham-Book';src:url("../fonts/Gotham-Book.eot");src:url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"),url("../fonts/Gotham-Book.woff") format("woff2"),url("../fonts/Gotham-Book.woff") format("woff"),url("../fonts/Gotham-Book.otf"),url("../fonts/Gotham-Book.svg#robotoregular") format("svg");font-weight:normal;font-style:normal}input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none;margin:0}input[type=number]{-moz-appearance:textfield}body{background:#3D5927 url("../images/fondo.jpg");background-size:cover;background-repeat:no-repeat;background-attachment:fixed;background-position:center;padding-top:0px;padding-bottom:0px}html,body,.container-fluid{height:100%}.login-top{max-width:600px;min-width:500px;width:100%;padding:50px 120px;margin:5% auto 0}.login-dialog{background:-moz-linear-gradient(0% 50% 0deg, #009448 22.09%, rgba(0,148,72,0.36) 73.01%, #009448 94.48%);background:-webkit-linear-gradient(0deg, #009448 22.09%, rgba(0,148,72,0.36) 73.01%, #009448 94.48%);background:-webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0.2209, #009448), color-stop(0.7301, rgba(0,148,72,0.36)), color-stop(0.9448, #009448));background:-o-linear-gradient(0deg, #009448 22.09%, rgba(0,148,72,0.36) 73.01%, #009448 94.48%);background:-ms-linear-gradient(0deg, #009448 22.09%, rgba(0,148,72,0.36) 73.01%, #009448 94.48%);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#009448', endColorstr='#009448' ,GradientType=0)";background:linear-gradient(90deg, #009448 22.09%, rgba(0,148,72,0.36) 73.01%, #009448 94.48%);opacity:0.75;filter:alpha(opacity=75) progid:DXImageTransform.Microsoft.Alpha(opacity=75) progid:DXImageTransform.Microsoft.gradient(startColorstr='#009448',endColorstr='#009448' , GradientType=1);max-width:600px;width:100%;padding:40px 120px;margin:0 auto;overflow:hidden;min-width:500px}.login-dialog label{float:left;width:100%;margin-top:5px;font-family:'BrooklynSamuelsFive-Bold';color:#FFF;text-transform:uppercase;text-align:center}.login-dialog input{font-family:'Brandon_reg';float:left;color:#FFF;width:96%;padding:2%;border:0;background:rgba(0,0,0,0.2)}.login-dialog p{float:left;font-size:15px;color:#BED73B;margin-top:3px;font-family:'Brandon_reg';width:100%}.login-dialog .btn{float:left;width:100%;text-align:center;margin-top:20px}.login-dialog .btn button{background:#5AAF7A;font-family:'BrooklynSamuelsFive-Bold';border:0;color:#FFF;font-size:15px;width:230px;line-height:40px;text-transform:uppercase}.bg{padding:5% 0;margin-bottom:10%;min-height:600px;background-color:rgba(0,0,0,0.6);-moz-background-color:rgba(0,0,0,0.6);-webkit-background-color:rgba(0,0,0,0.6);-o-background-color:rgba(0,0,0,0.6);-ms-background-color:rgba(0,0,0,0.6)}.head{height:170px;background-color:rgba(0,141,69,0.6)}.head img{margin-top:40px;float:left}.inner{max-width:840px;margin:0 auto;display:table;width:100%}.top-menu{background:rgba(0,0,0,0.7);height:40px}.top-menu a{color:#FFF;font-size:12px;display:inline-block;padding-left:30px;float:left;line-height:40px;text-transform:uppercase;font-family:'BrandonGrotesque-Light'}.top-menu a:first-child{background:url("../images/icon-text.png") no-repeat left center;margin-right:30px}.top-menu a:last-child{background:url("../images/icon-contact.png") no-repeat left center}.inner .login-box{display:table;padding-right:40px}.inner .login-box:hover .icon{opacity:1}.inner .login-box .icon{display:block;padding:0 40px 40px 0;text-align:center;opacity:.4;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.inner .login-box h3{font-size:27px;height:57px;line-height:30px;color:#fff;font-family:'BrooklynSamuelsFive-Fat';margin-bottom:20px;text-transform:uppercase;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.inner .login-box h3 .de{font-size:20px;position:relative;top:-10px}.inner .login-box h3 span{font-size:34px}.inner .login-box .pre{color:#FFF;font-family:'BrandonGrotesque-Light';opacity:.5;font-size:15px;line-height:16px;padding-right:40px}.inner .login-box a{font-family:'BrooklynSamuelsFive-Bold';text-transform:uppercase}.inner .login-box a.show-more{width:100%;float:left;margin:10px 0 30px;border-top:1px solid #FFF;padding-top:10px;opacity:.5;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.inner .login-box a.show-more span{color:#FFF;line-height:25px;padding-right:35px;float:right;font-size:11px;display:block;background:url("../images/mas.png") no-repeat right center;background-size:25px}.inner .login-box a.show-more:hover{opacity:1}.inner .login-box a.goto{background:rgba(255,255,255,0.2);float:left;height:40px;line-height:44px;font-size:15px;color:#FFF;text-align:center;width:100%;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.inner .login-box a.goto:hover{background:rgba(255,255,255,0.4)}.inner .info-box{background:url("../images/infobox-bg.png") no-repeat;padding-top:20px;position:relative}.inner .info-box .show-less{position:absolute;color:#FFF;font-size:14px;font-family:'BrooklynSamuelsFive-Bold';opacity:.6;right:-20px;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.inner .info-box .show-less:hover{text-decoration:none !important;opacity:1}.inner .info-box p{color:#FFF;display:block;font-family:'BrandonGrotesque-Light';opacity:.5;font-size:14px;line-height:17px;padding:20px 40px 0 0}.inner .info-box p span{color:#5AAF7A;text-transform:uppercase;font-size:13px;font-family:'Brandon_reg';display:block;margin-bottom:5px}.inner .info-box img{display:block;float:right}.inner .info-box .enter{background:rgba(255,255,255,0.2);float:left;height:40px;line-height:44px;font-size:15px;font-family:'BrooklynSamuelsFive-Bold';text-transform:uppercase;margin-top:20px;color:#FFF;text-align:center;width:100%;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.inner .info-box .enter:hover{background:rgba(255,255,255,0.4)}#box1.info-box{background-position:-650px 0px}#box2.info-box{background-position:-388px 0px}#box3.info-box{background-position:-90px 0px}.form-top{height:75px;background:rgba(255,255,255,0.6);text-transform:uppercase}.form-top .confirm p{float:left;background:url("../images/icon-form.png") no-repeat 15px 15px;padding-left:75px;font-size:18px;font-family:'BrooklynSamuelsFive-Fat';color:#009448;display:block;padding-top:28px;height:75px}.form-top .confirm p span{font-family:'Gotham-Book';font-size:14px;display:block}.form-top .points{position:relative}.form-top .points p{background:#8E3289;position:absolute;display:block;width:230px;height:115px;padding:15px 0;text-align:center;right:-10px}.form-top .points p span{display:block}.footer{height:130px;background-image:url("../images/footer.png");background-size:cover;repeat:no-repeat;width:100%;position:fixed;background-repeat:no-repeat;background-position:center;background-position-y:0;width:100%;bottom:0;left:0}.footer img{margin-top:15px;width:260px;display:block;margin:0 auto;margin-top:30px;position:relative;left:50%;margin-left:-130px;float:left;top:10px}@media screen and (min-width: 0px) and (max-width: 767px){.footer{padding-top:40px !important}.footer img{margin-top:0px}}@font-face{font-family:'BrandonGrotesque-Medium';src:url("BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"),url("BrandonGrotesque-Medium.otf") format("opentype"),url("BrandonGrotesque-Medium.woff") format("woff"),url("BrandonGrotesque-Medium.ttf") format("truetype"),url("BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium") format("svg");font-weight:normal;font-style:normal}#app-form{width:100%;background:#2D3D32;background:rgba(45,61,50,0.45);filter:alpha(opacity=45) progid:DXImageTransform.Microsoft.Alpha(opacity=45)}#app-form .row{margin:0}#app-form .form-header{background:-moz-linear-gradient(50% 100% 90deg, rgba(255,255,255,0.8) 0%, #fff 100%);background:-webkit-linear-gradient(90deg, rgba(255,255,255,0.8) 0%, #fff 100%);background:-webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0, rgba(255,255,255,0.8)), color-stop(1, #fff));background:-o-linear-gradient(90deg, rgba(255,255,255,0.8) 0%, #fff 100%);background:-ms-linear-gradient(90deg, rgba(255,255,255,0.8) 0%, #fff 100%);-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF' ,GradientType=0)";background:linear-gradient(0deg, rgba(255,255,255,0.8) 0%, #fff 100%);opacity:0.6;filter:alpha(opacity=60) progid:DXImageTransform.Microsoft.Alpha(opacity=60) progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#FFFFFF' , GradientType=0);height:75px;text-transform:uppercase}#app-form .form-header p{float:left;background:url("../images/icon-form.png") no-repeat 15px 15px;padding-left:75px;font-size:18px;font-family:'BrooklynSamuelsFive-Fat';color:#009448;display:block;padding-top:28px;height:75px}#app-form .form-header p span{font-family:'Gotham-Book';font-size:14px;display:block}#app-form .form-steps{max-width:600px;width:100%;margin:20px auto 20px;overflow:hidden}#app-form .form-steps span{width:40px;height:40px;text-align:center;line-height:29px;float:left;border:1px solid rgba(255,255,255,0.4);border-radius:50%;padding:5px;display:inline-block;color:white;font-family:'BrandonGrotesque-Light';font-size:15px;cursor:pointer}#app-form .form-steps span.active{background:rgba(255,255,255,0.4);border:0}#app-form .form-steps p{float:left;width:8%;line-height:20px;border-bottom:1px solid rgba(255,255,255,0.4)}#app-form .step-content{height:700px;position:relative}#app-form .step-content .step{position:absolute;top:0;left:0;right:0;opacity:0}#app-form .step-content .step.active{opacity:1;z-index:100}#app-form section{max-width:600px;width:100%;margin:0 auto;font-family:'BrandonGrotesque-Light';overflow:hidden;padding-bottom:20px}#app-form section.active{display:block}#app-form section p.group-title{border-bottom:1px solid rgba(255,255,255,0.45);font-size:13px;padding-bottom:4px;text-transform:uppercase;color:white;margin:20px 0}#app-form section .col-xs-6 p.group-title{width:90%}#app-form section .form-group.email{position:relative;padding-bottom:20px;margin-bottom:0}#app-form section .form-group.email p{font-family:'BrandonGrotesque-Light';color:#BED73B;position:absolute;width:100%;bottom:0;left:0}#app-form section .form-group .custom-checks{width:100%}#app-form section .form-group .custom-checks li{float:left;width:50%}#app-form section .form-group label{display:block;text-transform:uppercase;color:white;margin-bottom:4px;font-size:11px}#app-form section .form-group input[type=text],#app-form section .form-group input[type=password]{background:0;border:1px solid rgba(255,255,255,0.45);width:90%;padding:0 4%;height:25px;line-height:25px;color:rgba(255,255,255,0.8);font-family:'Roboto';font-weight:300}#app-form section .form-group input[type=checkbox].css-checkbox{position:absolute;z-index:-1000;left:-1000px;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}#app-form section .form-group input[type=checkbox].css-checkbox+label.check-label{padding-left:19px;height:14px;display:inline-block;line-height:14px;background-repeat:no-repeat;background-position:0 0;font-size:14px;vertical-align:middle;cursor:pointer;text-transform:none;font-size:13px;color:rgba(255,255,255,0.8);font-family:'Roboto';font-weight:300;margin-top:5px}#app-form section .form-group input[type=checkbox].css-checkbox:checked+label.check-label{background-position:0 -14px}#app-form section .form-group label.check-label{background-image:url("../images/checkbox.png");-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}#app-form section .form-group input[type=radio].css-checkbox{position:absolute;z-index:-1000;left:-1000px;overflow:hidden;clip:rect(0 0 0 0);height:1px;width:1px;margin:-1px;padding:0;border:0}#app-form section .form-group input[type=radio].css-checkbox+label.css-label{padding-left:24px;height:19px;display:inline-block;line-height:19px;background-repeat:no-repeat;background-position:0 0;font-size:19px;vertical-align:middle;cursor:pointer;text-transform:none;font-size:13px;color:rgba(255,255,255,0.8);font-family:'Roboto';font-weight:300;margin-top:5px}#app-form section .form-group input[type=radio].css-checkbox:checked+label.css-label{background-position:0 -19px}#app-form section .form-group label.css-label{background-image:url("../images/radiobutton.png");-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}#app-form section .form-group .custom-select{width:90%;height:25px;line-height:25px;background:rgba(255,255,255,0.2);overflow:hidden;position:relative}#app-form section .form-group .custom-select select{background:none;border:0;font-size:13px;width:120%;color:rgba(255,255,255,0.8);font-family:'Roboto';font-weight:300}#app-form section .form-group .custom-select i{position:absolute;top:5px;right:5px;width:10px;height:5px;color:white}#app-form section .confirm-btn{border-top:1px solid rgba(255,255,255,0.45);padding-top:14px;text-align:center;margin-top:20px}#app-form section .confirm-btn input,#app-form section .confirm-btn button{width:200px;height:35px;line-height:35px;background:#8E3289;border:0;font-family:'BrooklynSamuelsFive-Bold';text-transform:uppercase;color:white;font-size:12px;display:inline-block}#app-form section .confirm-btn input:hover,#app-form section .confirm-btn button:hover{opacity:.8}#app-form section .new-logo{margin-bottom:20px}#app-form section .new-logo label{float:left;width:40%;text-transform:uppercase;color:white;font-size:11px}#app-form section .new-logo .curr-logo label{width:40%}#app-form section .new-logo .curr-logo div.logo-display{float:left;width:50%;height:80px;background:rgba(255,255,255,0.2)}#app-form section .new-logo .curr-logo div.logo-display img{height:100%;width:100%}#app-form section .new-logo .logo-pick label{width:100%}#app-form section .new-logo .logo-pick input[type=file]{display:none}#app-form section .new-logo .logo-pick input[type=submit]{border:0;background:rgba(255,255,255,0.2);text-transform:uppercase;color:white;font-size:11px;font-family:'BrandonGrotesque-Light';padding:0 10px;height:25px;line-height:25px;margin-top:10px}#app-form section .new-logo .logo-pick #img-name{background:0;border:1px solid rgba(255,255,255,0.45);width:90%;padding:0 4%;height:25px;line-height:25px;color:rgba(255,255,255,0.8);font-family:'Roboto';font-weight:300}#app-form section .optional-logo label{float:left;width:100%;text-transform:uppercase;color:white;font-size:11px}#app-form section .optional-logo input[type=file]{display:none}#app-form section .optional-logo button{border:0;background:rgba(255,255,255,0.2);text-transform:uppercase;color:white;font-size:11px;font-family:'BrandonGrotesque-Light';padding:0 10px;height:25px;line-height:25px;margin-top:10px}#app-form section .optional-logo #other-name{background:0;border:1px solid rgba(255,255,255,0.45);width:45%;padding:0 4%;height:25px;line-height:25px;color:rgba(255,255,255,0.8);font-family:'Roboto';font-weight:300;clear:right}#app-form section .f-team input[type=submit]{border:0;background:rgba(255,255,255,0.2);text-transform:uppercase;color:white;font-size:11px;font-family:'BrandonGrotesque-Light';padding:0 10px;height:25px;line-height:25px;margin:10px 0}#app-form section .o-activities{margin-top:10px}#app-form section .o-activities button{border:0;background:rgba(255,255,255,0.2);text-transform:uppercase;color:white;font-size:11px;font-family:'BrandonGrotesque-Light';padding:0 10px;height:25px;line-height:25px;float:left}#app-form section .o-activities input[type=text]{float:left;width:78%;margin-right:10px}
+@charset "UTF-8";
+/* DEFAULT -*/
+/* ==========================================================================
+   Normalize.scss settings
+   ========================================================================== */
+/**
+ * Includes legacy browser support IE6/7
+ *
+ * Set to false if you want to drop support for IE6 and IE7
+ */
+/* Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS and IE text size adjust after device orientation change,
+ *    without disabling user zoom.
+ * 3. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *  `em` units.
+ */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability of focused elements when they are also in an
+ * active/hover state.
+ */
+a:active, a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Addresses styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 8/9/10.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *  Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ * 4. Improves appearance and consistency in all browsers.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *  and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *  `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *  Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ *  Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  box-sizing: content-box;
+  /* 2 */ }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ * 3. Corrects text not wrapping in Firefox 3.
+ * 4. Corrects alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+  line-height: 14px; }
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3,
+.col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5,
+.col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7,
+.col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+.col-xs-12, .col-sm-12, .col-md-12, .col-lg-12, .container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+a:hover {
+  text-decoration: none; }
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+:focus {
+  outline: 0; }
+
+.background-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+li:focus {
+  background-color: transparent !important;
+  border-color: none; }
+
+li > a:focus {
+  background-color: transparent !important;
+  border-color: none; }
+
+.navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px; }
+
+.nav-link-active {
+  opacity: 0.5; }
+
+/*
+ barra de scroll navegador 
+::-webkit-scrollbar /*fondo{
+}
+::-webkit-scrollbar-thumb/*barra{
+}
+.navbar-collapse {
+}
+*/
+/* RESPONSIVE - DEFAULT */
+/*mobile--------------------------------------------------*/
+/**  MOBILE DISPOSITIVO **/
+/*tablet----------------------------------------*/
+/**  TABLETS LANDSCAPE **/
+/*notbook------------------------------------*/
+/*desktop------------------------------*/
+/*desktop large-----------------------------------------------*/
+/******** LAYOUT ********/
+@font-face {
+  font-family: 'BrooklynSamuelsFive-Bold';
+  src: url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.eot");
+  src: url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.woff2") format("woff2"), url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.woff") format("woff"), url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.ttf") format("truetype"), url("../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.svg#brooklyn_samuelsno5_bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrooklynSamuelsFive-Fat';
+  src: url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.eot");
+  src: url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.woff2") format("woff2"), url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.woff") format("woff"), url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.ttf") format("truetype"), url("../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.svg#brooklyn_samuelsno5_fat") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'BrandonGrotesque-Light';
+  src: url("../fonts/BrandonGrotesque-Light.eot");
+  src: url("../fonts/BrandonGrotesque-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/BrandonGrotesque-Light.woff") format("woff"), url("../fonts/BrandonGrotesque-Light.ttf") format("truetype"), url("../fonts/BrandonGrotesque-Light.svg#BrandonGrotesque-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Brandon_reg';
+  src: url("../fonts/brandon_reg-webfont.eot");
+  src: url("../fonts/brandon_reg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/brandon_reg-webfont.woff2") format("woff2"), url("../fonts/brandon_reg-webfont.woff") format("woff"), url("../fonts/brandon_reg-webfont.ttf") format("truetype"), url("../fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Open_Sans_Regular';
+  src: url("../fonts/opensans-regular-webfont.eot");
+  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'robotoregular';
+  src: url("../fonts/roboto-regular-webfont.eot");
+  src: url("../fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-regular-webfont.woff2") format("woff2"), url("../fonts/roboto-regular-webfont.woff") format("woff"), url("../fonts/roboto-regular-webfont.ttf") format("truetype"), url("../fonts/roboto-regular-webfont.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url("../fonts/Gotham-Light.eot");
+  src: url("../fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Light.woff") format("woff2"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.otf"), url("../fonts/Gotham-Light.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url("../fonts/Gotham-Medium.eot");
+  src: local("Ôÿ║"), url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.ttf") format("truetype"), url("../fonts/Gotham-Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url("../fonts/Gotham-Book.eot");
+  src: url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Book.woff") format("woff2"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.otf"), url("../fonts/Gotham-Book.svg#robotoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
+
+/*::-webkit-scrollbar {//fondo
+    background-color: rgba(#FFFFFF,.18);
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{//barra
+
+     background-color: rgba(#FFFFFF,.45);
+     width: 10px;
+}
+.navbar-collapse {
+
+     background-color: #d1d1d1;
+     width: 10px;
+}*/
+body {
+  background: #3D5927 url("../images/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+html, body, .container-fluid {
+  height: 100%; }
+
+.login-top {
+  max-width: 600px;
+  min-width: 500px;
+  width: 100%;
+  padding: 50px 120px;
+  margin: 5% auto 0; }
+
+.login-dialog {
+  background: -moz-linear-gradient(0% 50% 0deg, #009448 22.09%, rgba(0, 148, 72, 0.36) 73.01%, #009448 94.48%);
+  background: -webkit-linear-gradient(0deg, #009448 22.09%, rgba(0, 148, 72, 0.36) 73.01%, #009448 94.48%);
+  background: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0.2209, #009448), color-stop(0.7301, rgba(0, 148, 72, 0.36)), color-stop(0.9448, #009448));
+  background: -o-linear-gradient(0deg, #009448 22.09%, rgba(0, 148, 72, 0.36) 73.01%, #009448 94.48%);
+  background: -ms-linear-gradient(0deg, #009448 22.09%, rgba(0, 148, 72, 0.36) 73.01%, #009448 94.48%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#009448', endColorstr='#009448' ,GradientType=0)";
+  background: linear-gradient(90deg, #009448 22.09%, rgba(0, 148, 72, 0.36) 73.01%, #009448 94.48%);
+  opacity: 0.75;
+  filter: alpha(opacity=75) progid:DXImageTransform.Microsoft.Alpha(opacity=75) progid:DXImageTransform.Microsoft.gradient(startColorstr='#009448',endColorstr='#009448' , GradientType=1);
+  max-width: 600px;
+  width: 100%;
+  padding: 40px 120px;
+  margin: 0 auto;
+  overflow: hidden;
+  min-width: 500px; }
+  .login-dialog label {
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    font-family: 'BrooklynSamuelsFive-Bold';
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center; }
+  .login-dialog input {
+    font-family: 'Brandon_reg';
+    float: left;
+    color: #FFF;
+    width: 96%;
+    padding: 2%;
+    border: 0;
+    background: rgba(0, 0, 0, 0.2); }
+  .login-dialog p {
+    float: left;
+    font-size: 15px;
+    color: #BED73B;
+    margin-top: 3px;
+    font-family: 'Brandon_reg';
+    width: 100%; }
+  .login-dialog .btn {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px; }
+    .login-dialog .btn button {
+      background: #5AAF7A;
+      font-family: 'BrooklynSamuelsFive-Bold';
+      border: 0;
+      color: #FFF;
+      font-size: 15px;
+      width: 230px;
+      line-height: 40px;
+      text-transform: uppercase; }
+
+.bg {
+  padding: 5% 0;
+  margin-bottom: 10%;
+  min-height: 600px;
+  background-color: rgba(0, 0, 0, 0.6);
+  -moz-background-color: rgba(0, 0, 0, 0.6);
+  -webkit-background-color: rgba(0, 0, 0, 0.6);
+  -o-background-color: rgba(0, 0, 0, 0.6);
+  -ms-background-color: rgba(0, 0, 0, 0.6); }
+
+.head {
+  height: 170px;
+  background-color: rgba(0, 141, 69, 0.6); }
+  .head img {
+    margin-top: 40px;
+    float: left; }
+
+.inner {
+  max-width: 840px;
+  margin: 0 auto;
+  display: table;
+  width: 100%; }
+
+.top-menu {
+  background: rgba(0, 0, 0, 0.7); }
+  .top-menu a {
+    color: #FFF;
+    font-size: 12px;
+    display: inline-block;
+    padding-left: 30px;
+    float: left;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: 'BrandonGrotesque-Light';
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    .top-menu a:hover {
+      opacity: .6; }
+    .top-menu a:first-child {
+      background: url("../images/icon-text.png") no-repeat left center;
+      margin-right: 30px; }
+    .top-menu a:nth-child(2) {
+      background: url("../images/icon-contact.png") no-repeat left center;
+      margin-right: 30px; }
+    .top-menu a:nth-child(3) {
+      background: url("../images/icon-profile.png") no-repeat left center;
+      margin-right: 30px; }
+    .top-menu a:last-child {
+      background: url("../images/icon-home.png") no-repeat left center;
+      float: right; }
+
+.inner .login-box {
+  display: table;
+  padding-right: 40px; }
+  .inner .login-box:hover .icon {
+    opacity: 1; }
+  .inner .login-box .icon {
+    display: block;
+    padding: 0 40px 40px 0;
+    text-align: center;
+    opacity: .4;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+  .inner .login-box h3 {
+    font-size: 27px;
+    height: 57px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'BrooklynSamuelsFive-Fat';
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    .inner .login-box h3 .de {
+      font-size: 20px;
+      position: relative;
+      top: -10px; }
+    .inner .login-box h3 span {
+      font-size: 34px; }
+  .inner .login-box .pre {
+    color: #FFF;
+    font-family: 'BrandonGrotesque-Light';
+    opacity: .5;
+    font-size: 15px;
+    line-height: 16px;
+    padding-right: 40px; }
+  .inner .login-box a {
+    font-family: 'BrooklynSamuelsFive-Bold';
+    text-transform: uppercase; }
+  .inner .login-box a.show-more {
+    width: 100%;
+    float: left;
+    margin: 10px 0 30px;
+    border-top: 1px solid #FFF;
+    padding-top: 10px;
+    opacity: .5;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    .inner .login-box a.show-more span {
+      color: #FFF;
+      line-height: 25px;
+      padding-right: 35px;
+      float: right;
+      font-size: 11px;
+      display: block;
+      background: url("../images/mas.png") no-repeat right center;
+      background-size: 25px; }
+    .inner .login-box a.show-more:hover {
+      opacity: 1; }
+  .inner .login-box a.goto {
+    background: rgba(255, 255, 255, 0.2);
+    float: left;
+    height: 40px;
+    line-height: 44px;
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    .inner .login-box a.goto:hover {
+      background: rgba(255, 255, 255, 0.4); }
+.inner .info-box {
+  background: url("../images/infobox-bg.png") no-repeat;
+  padding-top: 20px;
+  position: relative; }
+  .inner .info-box .show-less {
+    position: absolute;
+    color: #FFF;
+    font-size: 14px;
+    font-family: 'BrooklynSamuelsFive-Bold';
+    opacity: .6;
+    right: -20px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    .inner .info-box .show-less:hover {
+      text-decoration: none !important;
+      opacity: 1; }
+  .inner .info-box p {
+    color: #FFF;
+    display: block;
+    font-family: 'BrandonGrotesque-Light';
+    opacity: .5;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 20px 40px 0 0; }
+    .inner .info-box p span {
+      color: #5AAF7A;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-family: 'Brandon_reg';
+      display: block;
+      margin-bottom: 5px; }
+  .inner .info-box img {
+    display: block;
+    float: right; }
+  .inner .info-box .enter {
+    background: rgba(255, 255, 255, 0.2);
+    float: left;
+    height: 40px;
+    line-height: 44px;
+    font-size: 15px;
+    font-family: 'BrooklynSamuelsFive-Bold';
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+    .inner .info-box .enter:hover {
+      background: rgba(255, 255, 255, 0.4); }
+
+#box1.info-box {
+  background-position: -650px 0px; }
+
+#box2.info-box {
+  background-position: -388px 0px; }
+
+#box3.info-box {
+  background-position: -90px 0px; }
+
+.form-top {
+  height: 75px;
+  background: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase; }
+  .form-top .confirm p {
+    float: left;
+    background: url("../images/icon-form.png") no-repeat 15px 15px;
+    padding-left: 75px;
+    font-size: 18px;
+    font-family: 'BrooklynSamuelsFive-Fat';
+    color: #009448;
+    display: block;
+    padding-top: 28px;
+    height: 75px; }
+    .form-top .confirm p span {
+      font-family: 'Gotham-Book';
+      font-size: 14px;
+      display: block; }
+  .form-top .points {
+    position: relative; }
+    .form-top .points p {
+      background: #8E3289;
+      position: absolute;
+      display: block;
+      width: 230px;
+      height: 115px;
+      padding: 15px 0;
+      text-align: center;
+      right: -10px; }
+      .form-top .points p span {
+        display: block; }
+
+.footer {
+  height: 130px;
+  background-image: url("../images/footer.png");
+  background-size: cover;
+  repeat: no-repeat;
+  width: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0; }
+  .footer img {
+    margin-top: 15px;
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    margin-left: -130px;
+    float: left;
+    top: 10px; }
+
+/* RESPONSIVE  */
+/*mobile--------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .footer {
+    padding-top: 40px !important; }
+
+  .footer img {
+    margin-top: 0px; } }
+/*tablet----------------------------------------*/
+/**  TABLETS LANDSCAPE **/
+/*notbook------------------------------------*/
+/*desktop------------------------------*/
+/*desktop large-----------------------------------------------*/
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url("BrandonGrotesque-Medium.eot?#iefix") format("embedded-opentype"), url("BrandonGrotesque-Medium.otf") format("opentype"), url("BrandonGrotesque-Medium.woff") format("woff"), url("BrandonGrotesque-Medium.ttf") format("truetype"), url("BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+#app-form {
+  width: 100%;
+  background: #2D3D32;
+  background: rgba(45, 61, 50, 0.45);
+  filter: alpha(opacity=45) progid:DXImageTransform.Microsoft.Alpha(opacity=45); }
+  #app-form .row {
+    margin: 0; }
+  #app-form .form-header {
+    background: -moz-linear-gradient(50% 100% 90deg, rgba(255, 255, 255, 0.8) 0%, white 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, white 100%);
+    background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0, rgba(255, 255, 255, 0.8)), color-stop(1, white));
+    background: -o-linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, white 100%);
+    background: -ms-linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, white 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF' ,GradientType=0)";
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.8) 0%, white 100%);
+    opacity: 0.6;
+    filter: alpha(opacity=60) progid:DXImageTransform.Microsoft.Alpha(opacity=60) progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#FFFFFF' , GradientType=0);
+    height: 75px;
+    text-transform: uppercase; }
+    #app-form .form-header p {
+      float: left;
+      background: url("../images/icon-form.png") no-repeat 15px 15px;
+      padding-left: 75px;
+      font-size: 18px;
+      font-family: 'BrooklynSamuelsFive-Fat';
+      color: #009448;
+      display: block;
+      padding-top: 28px;
+      height: 75px; }
+      #app-form .form-header p span {
+        font-family: 'Gotham-Book';
+        font-size: 14px;
+        display: block; }
+  #app-form .form-steps {
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto 20px;
+    overflow: hidden; }
+    #app-form .form-steps span {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      line-height: 29px;
+      float: left;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      padding: 5px;
+      display: inline-block;
+      color: white;
+      font-family: 'BrandonGrotesque-Light';
+      font-size: 15px;
+      cursor: pointer; }
+    #app-form .form-steps span.active {
+      background: rgba(255, 255, 255, 0.4);
+      border: 0; }
+    #app-form .form-steps p {
+      float: left;
+      width: 8%;
+      line-height: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  #app-form .step-content {
+    height: 700px;
+    position: relative; }
+    #app-form .step-content .step {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      opacity: 0; }
+      #app-form .step-content .step.active {
+        opacity: 1;
+        z-index: 100; }
+  #app-form section {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'BrandonGrotesque-Light';
+    overflow: hidden;
+    padding-bottom: 20px; }
+    #app-form section.active {
+      display: block; }
+    #app-form section p.group-title {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.45);
+      font-size: 13px;
+      padding-bottom: 4px;
+      text-transform: uppercase;
+      color: white;
+      margin: 20px 0; }
+    #app-form section .col-xs-6 p.group-title {
+      width: 90%; }
+    #app-form section .form-group.email {
+      position: relative;
+      padding-bottom: 20px;
+      margin-bottom: 0; }
+      #app-form section .form-group.email p {
+        font-family: 'BrandonGrotesque-Light';
+        color: #BED73B;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        left: 0; }
+    #app-form section .form-group .custom-checks {
+      width: 100%; }
+      #app-form section .form-group .custom-checks li {
+        float: left;
+        width: 50%; }
+    #app-form section .form-group label {
+      display: block;
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 4px;
+      font-size: 11px; }
+    #app-form section .form-group input[type=text], #app-form section .form-group input[type=password] {
+      background: 0;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      width: 90%;
+      padding: 0 4%;
+      height: 25px;
+      line-height: 25px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: 'Roboto';
+      font-weight: 300; }
+    #app-form section .form-group input[type=checkbox].css-checkbox {
+      position: absolute;
+      z-index: -1000;
+      left: -1000px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      width: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0; }
+    #app-form section .form-group input[type=checkbox].css-checkbox + label.check-label {
+      padding-left: 19px;
+      height: 14px;
+      display: inline-block;
+      line-height: 14px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      font-size: 14px;
+      vertical-align: middle;
+      cursor: pointer;
+      text-transform: none;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: 'Roboto';
+      font-weight: 300;
+      margin-top: 5px; }
+    #app-form section .form-group input[type=checkbox].css-checkbox:checked + label.check-label {
+      background-position: 0 -14px; }
+    #app-form section .form-group label.check-label {
+      background-image: url("../images/checkbox.png");
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    #app-form section .form-group input[type=radio].css-checkbox {
+      position: absolute;
+      z-index: -1000;
+      left: -1000px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      width: 1px;
+      margin: -1px;
+      padding: 0;
+      border: 0; }
+    #app-form section .form-group input[type=radio].css-checkbox + label.css-label {
+      padding-left: 24px;
+      height: 19px;
+      display: inline-block;
+      line-height: 19px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      font-size: 19px;
+      vertical-align: middle;
+      cursor: pointer;
+      text-transform: none;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: 'Roboto';
+      font-weight: 300;
+      margin-top: 5px; }
+    #app-form section .form-group input[type=radio].css-checkbox:checked + label.css-label {
+      background-position: 0 -19px; }
+    #app-form section .form-group label.css-label {
+      background-image: url("../images/radiobutton.png");
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; }
+    #app-form section .form-group .custom-select {
+      width: 90%;
+      height: 25px;
+      line-height: 25px;
+      background: rgba(255, 255, 255, 0.2);
+      overflow: hidden;
+      position: relative; }
+      #app-form section .form-group .custom-select select {
+        background: none;
+        border: 0;
+        font-size: 13px;
+        width: 120%;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Roboto';
+        font-weight: 300; }
+      #app-form section .form-group .custom-select i {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 10px;
+        height: 5px;
+        color: white; }
+    #app-form section .confirm-btn {
+      border-top: 1px solid rgba(255, 255, 255, 0.45);
+      padding-top: 14px;
+      text-align: center;
+      margin-top: 20px; }
+      #app-form section .confirm-btn input, #app-form section .confirm-btn button {
+        width: 200px;
+        height: 35px;
+        line-height: 35px;
+        background: #8E3289;
+        border: 0;
+        font-family: 'BrooklynSamuelsFive-Bold';
+        text-transform: uppercase;
+        color: white;
+        font-size: 12px;
+        display: inline-block; }
+        #app-form section .confirm-btn input:hover, #app-form section .confirm-btn button:hover {
+          opacity: .8; }
+    #app-form section .new-logo {
+      margin-bottom: 20px; }
+      #app-form section .new-logo label {
+        float: left;
+        width: 40%;
+        text-transform: uppercase;
+        color: white;
+        font-size: 11px; }
+      #app-form section .new-logo .curr-logo label {
+        width: 40%; }
+      #app-form section .new-logo .curr-logo div.logo-display {
+        float: left;
+        width: 50%;
+        height: 80px;
+        background: rgba(255, 255, 255, 0.2); }
+        #app-form section .new-logo .curr-logo div.logo-display img {
+          height: 100%;
+          width: 100%; }
+      #app-form section .new-logo .logo-pick label {
+        width: 100%; }
+      #app-form section .new-logo .logo-pick input[type=file] {
+        display: none; }
+      #app-form section .new-logo .logo-pick input[type=submit] {
+        border: 0;
+        background: rgba(255, 255, 255, 0.2);
+        text-transform: uppercase;
+        color: white;
+        font-size: 11px;
+        font-family: 'BrandonGrotesque-Light';
+        padding: 0 10px;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 10px; }
+      #app-form section .new-logo .logo-pick #img-name {
+        background: 0;
+        border: 1px solid rgba(255, 255, 255, 0.45);
+        width: 90%;
+        padding: 0 4%;
+        height: 25px;
+        line-height: 25px;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: 'Roboto';
+        font-weight: 300; }
+    #app-form section .optional-logo label {
+      float: left;
+      width: 100%;
+      text-transform: uppercase;
+      color: white;
+      font-size: 11px; }
+    #app-form section .optional-logo input[type=file] {
+      display: none; }
+    #app-form section .optional-logo button {
+      border: 0;
+      background: rgba(255, 255, 255, 0.2);
+      text-transform: uppercase;
+      color: white;
+      font-size: 11px;
+      font-family: 'BrandonGrotesque-Light';
+      padding: 0 10px;
+      height: 25px;
+      line-height: 25px;
+      margin-top: 10px; }
+    #app-form section .optional-logo #other-name {
+      background: 0;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      width: 45%;
+      padding: 0 4%;
+      height: 25px;
+      line-height: 25px;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: 'Roboto';
+      font-weight: 300;
+      clear: right; }
+    #app-form section .f-team input[type=submit] {
+      border: 0;
+      background: rgba(255, 255, 255, 0.2);
+      text-transform: uppercase;
+      color: white;
+      font-size: 11px;
+      font-family: 'BrandonGrotesque-Light';
+      padding: 0 10px;
+      height: 25px;
+      line-height: 25px;
+      margin: 10px 0; }
+    #app-form section .o-activities {
+      margin-top: 10px; }
+      #app-form section .o-activities button {
+        border: 0;
+        background: rgba(255, 255, 255, 0.2);
+        text-transform: uppercase;
+        color: white;
+        font-size: 11px;
+        font-family: 'BrandonGrotesque-Light';
+        padding: 0 10px;
+        height: 25px;
+        line-height: 25px;
+        float: left; }
+      #app-form section .o-activities input[type=text] {
+        float: left;
+        width: 78%;
+        margin-right: 10px; }
+
 /*# sourceMappingURL=estilos.css.map */

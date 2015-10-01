@@ -262,9 +262,9 @@ html, body, .container-fluid{
 	width: 100%;
 }
 
+
 .top-menu{
 	background: $black-bg;
-	height: 40px;
 
 	a{
 		color: $white;
@@ -275,14 +275,33 @@ html, body, .container-fluid{
 		line-height: 40px;
 		text-transform: uppercase;
 		font-family: 'BrandonGrotesque-Light';
+		-webkit-transition: all 0.25s ease-in-out;
+		-moz-transition: all 0.25s ease-in-out;
+		-ms-transition: all 0.25s ease-in-out;
+		-o-transition: all 0.25s ease-in-out;
+		transition: all 0.25s ease-in-out;
+		
+		&:hover{
+			opacity: .6;
+		}
 
 		&:first-child{
 			background: url('../images/icon-text.png') no-repeat left center;
 			margin-right: 30px;
 		}
+		&:nth-child(2){
+			background: url('../images/icon-contact.png') no-repeat left center;
+			margin-right: 30px;
+		}
+
+		&:nth-child(3){
+			background: url('../images/icon-profile.png') no-repeat left center;
+			margin-right: 30px;
+		}
 
 		&:last-child{
-			background: url('../images/icon-contact.png') no-repeat left center;	
+			background: url('../images/icon-home.png') no-repeat left center;	
+			float: right;
 		}
 	}
 }

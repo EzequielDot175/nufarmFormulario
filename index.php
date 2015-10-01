@@ -30,6 +30,8 @@ require_once('../core_nufarm/libs.php');
 			</div>
 		</div>
 
+		<?php require "../login/inc/top-menu.php"; ?>
+
 
 		<div class="col-xs-12 bg">
 			<div class="inner">
@@ -74,6 +76,12 @@ require_once('../core_nufarm/libs.php');
 						
 					
 						<section class="step active" ng-controller="ctrlAppInicio">
+
+							<div class="modal">
+								
+							</div>
+
+
 							<div class="row">
 
 								<div class="col-xs-12">
@@ -455,7 +463,6 @@ require_once('../core_nufarm/libs.php');
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/angular.min.js"></script>
-	<script src="assets/bootstrap-3.3.4/js/bootstrap.min.js"></script>
 	<script src="js/angular-route.min.js"></script>
 	<script src="js/app_init.js"></script>
 	<script src="js/angular-file-upload.min.js"></script>
