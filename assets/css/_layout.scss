@@ -1,0 +1,598 @@
+// ========================
+/******** LAYOUT ********/
+// ========================
+
+@font-face {
+    font-family: 'BrooklynSamuelsFive-Bold';
+    src: url('../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.eot');
+    src: url('../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.woff2') format('woff2'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.woff') format('woff'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.ttf') format('truetype'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-bold-webfont.svg#brooklyn_samuelsno5_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrooklynSamuelsFive-Fat';
+    src: url('../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.eot');
+    src: url('../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.woff2') format('woff2'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.woff') format('woff'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.ttf') format('truetype'),
+         url('../fonts/samuelstype_-_brooklynsamuelsfive-fat-webfont.svg#brooklyn_samuelsno5_fat') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonGrotesque-Light';
+    src: url('../fonts/BrandonGrotesque-Light.eot');
+    src: url('../fonts/BrandonGrotesque-Light.eot?#iefix') format('embedded-opentype'),
+         // url('../fonts/BrandonGrotesque-Light.woff2') format('woff2'),
+         url('../fonts/BrandonGrotesque-Light.woff') format('woff'),
+         url('../fonts/BrandonGrotesque-Light.ttf') format('truetype'),
+         url('../fonts/BrandonGrotesque-Light.svg#BrandonGrotesque-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brandon_reg';
+    src: url('../fonts/brandon_reg-webfont.eot');
+    src: url('../fonts/brandon_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon_reg-webfont.woff2') format('woff2'),
+         url('../fonts/brandon_reg-webfont.woff') format('woff'),
+         url('../fonts/brandon_reg-webfont.ttf') format('truetype'),
+         url('../fonts/brandon_reg-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open_Sans_Regular';
+    src: url('../fonts/opensans-regular-webfont.eot');
+    src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff'),
+         url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('../fonts/roboto-regular-webfont.woff') format('woff'),
+         url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Light';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Light.woff') format('woff2'),
+         url('../fonts/Gotham-Light.woff') format('woff'),
+         url('../fonts/Gotham-Light.otf'),
+         url('../fonts/Gotham-Light.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: local('☺'), url('../fonts/Gotham-Medium.woff') format('woff'), 
+            url('../fonts/Gotham-Medium.ttf') format('truetype'), 
+            url('../fonts/Gotham-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gotham-Book.woff') format('woff2'),
+         url('../fonts/Gotham-Book.woff') format('woff'),
+         url('../fonts/Gotham-Book.otf'),
+         url('../fonts/Gotham-Book.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+}
+
+input[type=number] {
+         -moz-appearance:textfield;
+}
+
+//barra de scroll navegador 
+/*::-webkit-scrollbar {//fondo
+    background-color: rgba(#FFFFFF,.18);
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{//barra
+
+     background-color: rgba(#FFFFFF,.45);
+     width: 10px;
+}
+.navbar-collapse {
+
+     background-color: #d1d1d1;
+     width: 10px;
+}*/
+
+
+body {
+    background: #3D5927 url("../images/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+// text
+$white: #FFF;
+$green: #5AAF7A;
+
+// backgrounds
+$white-bg: rgba(255, 255, 255, .2);
+$black-bg: rgba(0, 0, 0, .7);
+$verde : #78AC7A;
+
+html, body, .container-fluid{
+	height: 100%;
+}
+
+// LOGIN BOX
+.login-top{
+	max-width: 600px;
+	min-width: 500px;
+	width: 100%;
+	padding: 50px 120px;
+	margin: 5% auto 0;
+}
+
+.login-dialog{
+	background : -moz-linear-gradient(0% 50% 0deg,rgba(0, 148, 72, 1) 22.09%,rgba(0, 148, 72, 0.36) 73.01%,rgba(0, 148, 72, 1) 94.48%);
+	background : -webkit-linear-gradient(0deg, rgba(0, 148, 72, 1) 22.09%, rgba(0, 148, 72, 0.36) 73.01%, rgba(0, 148, 72, 1) 94.48%);
+	background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0.2209,rgba(0, 148, 72, 1) ),color-stop(0.7301,rgba(0, 148, 72, 0.36) ),color-stop(0.9448,rgba(0, 148, 72, 1) ));
+	background : -o-linear-gradient(0deg, rgba(0, 148, 72, 1) 22.09%, rgba(0, 148, 72, 0.36) 73.01%, rgba(0, 148, 72, 1) 94.48%);
+	background : -ms-linear-gradient(0deg, rgba(0, 148, 72, 1) 22.09%, rgba(0, 148, 72, 0.36) 73.01%, rgba(0, 148, 72, 1) 94.48%);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#009448', endColorstr='#009448' ,GradientType=0)";
+	background : linear-gradient(90deg, rgba(0, 148, 72, 1) 22.09%, rgba(0, 148, 72, 0.36) 73.01%, rgba(0, 148, 72, 1) 94.48%);
+	opacity : 0.75;
+	filter: alpha(opacity=75) progid:DXImageTransform.Microsoft.Alpha(opacity=75) progid:DXImageTransform.Microsoft.gradient(startColorstr='#009448',endColorstr='#009448' , GradientType=1);
+	max-width: 600px;
+	width: 100%;
+	padding: 40px 120px;
+	margin: 0 auto;
+	overflow: hidden;
+	min-width: 500px;
+
+		label{
+			float: left;
+			width: 100%;
+			margin-top: 5px;
+			font-family: 'BrooklynSamuelsFive-Bold';
+			color: $white;
+			text-transform: uppercase;
+			text-align: center;
+		}
+
+		input{
+			font-family: 'Brandon_reg';
+			float: left;
+			color: $white;
+			width: 96%;
+			padding: 2%;
+			border: 0;
+			background: rgba(0, 0, 0, .2);
+		}
+
+		p{
+			float: left;
+			font-size: 15px;
+			color: #BED73B;
+			margin-top: 3px;
+			font-family: 'Brandon_reg';
+			width: 100%;
+		}
+
+		.btn{
+			float: left;
+			width: 100%;
+			text-align: center;
+			margin-top: 20px;
+			
+			button{
+				background: $green;
+				font-family: 'BrooklynSamuelsFive-Bold';
+				border: 0;
+				color: $white;
+				font-size: 15px;
+				width: 230px;
+				line-height: 40px;
+				text-transform: uppercase;
+			}
+		}
+		
+}
+
+// PANTALLA DE SELECT
+.bg{
+	padding: 5% 0;
+	margin-bottom: 10%;
+	min-height: 600px;
+	background-color: rgba(0, 0, 0, 0.6);
+    -moz-background-color: rgba(0, 0, 0, 0.6);
+    -webkit-background-color: rgba(0, 0, 0, 0.6);
+    -o-background-color: rgba(0, 0, 0, 0.6);
+    -ms-background-color: rgba(0, 0, 0, 0.6);
+}
+
+.head {
+	height: 170px;
+	background-color: rgba(#008D45, .6);
+
+	img {
+		margin-top: 40px;
+		float: left
+	}
+}
+
+.inner{
+	max-width: 840px;
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+}
+
+.top-menu{
+	background: $black-bg;
+	height: 40px;
+
+	a{
+		color: $white;
+		font-size: 12px;
+		display: inline-block;
+		padding-left: 30px;
+		float: left;
+		line-height: 40px;
+		text-transform: uppercase;
+		font-family: 'BrandonGrotesque-Light';
+
+		&:first-child{
+			background: url('../images/icon-text.png') no-repeat left center;
+			margin-right: 30px;
+		}
+
+		&:last-child{
+			background: url('../images/icon-contact.png') no-repeat left center;	
+		}
+	}
+}
+
+.inner{
+	.login-box{
+		display: table;
+		padding-right: 40px;
+
+		&:hover .icon{
+			opacity: 1;
+		}
+
+		.icon{
+			display: block;
+			padding:0 40px 40px 0;
+			text-align: center;
+			opacity: .4;
+			-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+		}
+
+		h3{
+			font-size: 27px;
+			height: 57px;
+			line-height: 30px;
+			color: #fff;
+			font-family: 'BrooklynSamuelsFive-Fat';
+			margin-bottom: 20px;
+			text-transform: uppercase;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+
+			.de{
+	            font-size: 20px;
+	            position: relative;
+	            top: -10px;
+	        }
+
+			span{
+				font-size: 34px;
+			}
+        }
+
+        .pre{
+        	color: $white;
+        	font-family: 'BrandonGrotesque-Light';
+        	opacity: .5;
+        	font-size: 15px;
+        	line-height: 16px;
+        	padding-right: 40px;
+        }
+
+        a{
+        	font-family: 'BrooklynSamuelsFive-Bold';
+        	text-transform: uppercase;
+        }
+
+        a.show-more{
+        	width: 100%;
+        	float: left;
+        	margin: 10px 0 30px;
+        	border-top: 1px solid $white;
+        	padding-top: 10px;
+        	opacity: .5;
+        	-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+
+        	span{
+        		color: $white;
+        		line-height: 25px;
+        		padding-right: 35px;
+        		float: right;
+        		font-size: 11px;
+        		display: block;
+        		background: url('../images/mas.png') no-repeat right center;
+        		background-size: 25px;
+        	}
+
+        	&:hover{
+        		opacity: 1;
+        	}
+        }
+
+        a.goto{
+        	background: $white-bg;
+        	float: left;
+        	height: 40px;
+        	line-height: 44px;
+        	font-size: 15px;
+        	color: $white;
+        	text-align: center;
+        	width: 100%;
+        	-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+
+        	&:hover{
+        		background: rgba(255, 255, 255, 0.4);
+        	}
+        }
+	}
+
+	.info-box{
+		background: url('../images/infobox-bg.png') no-repeat;
+		padding-top: 20px;
+		position: relative;
+
+		.show-less{
+			position: absolute;
+			color: $white;
+			font-size: 14px;
+			font-family: 'BrooklynSamuelsFive-Bold';
+			opacity: .6;
+			right: -20px;
+        	-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+
+			&:hover{
+				text-decoration: none !important;
+				opacity: 1;
+			}
+		}
+
+		p{
+			color: $white;
+			display: block;
+        	font-family: 'BrandonGrotesque-Light';
+        	opacity: .5;
+        	font-size: 14px;
+        	line-height: 17px;
+			padding: 20px 40px 0 0;
+
+				span{
+					color: $green;
+					text-transform: uppercase;
+					font-size: 13px;
+					font-family: 'Brandon_reg';
+					display: block;
+					margin-bottom: 5px;
+				}
+		}
+
+		img{
+			display: block;
+			float: right;
+		}
+
+		.enter{
+			background: $white-bg;
+        	float: left;
+        	height: 40px;
+        	line-height: 44px;
+        	font-size: 15px;
+        	font-family: 'BrooklynSamuelsFive-Bold';
+        	text-transform: uppercase;
+        	margin-top: 20px;
+        	color: $white;
+        	text-align: center;
+        	width: 100%;
+        	-webkit-transition: all 0.25s ease-in-out;
+			-moz-transition: all 0.25s ease-in-out;
+			-ms-transition: all 0.25s ease-in-out;
+			-o-transition: all 0.25s ease-in-out;
+			transition: all 0.25s ease-in-out;
+
+        	&:hover{
+    		    background: rgba(255, 255, 255, 0.4);
+        	}
+		}
+	}
+}
+
+#box1.info-box{
+	background-position: -650px 0px;
+}
+
+#box2.info-box{
+	background-position: -388px 0px;
+}
+#box3.info-box{
+	background-position: -90px 0px;
+}
+// FORM SECTION
+.form-top{
+	height: 75px;
+	background: rgba(255, 255, 255, .6);
+	text-transform: uppercase;
+
+	.confirm{
+		p{
+			float: left;
+			background: url('../images/icon-form.png') no-repeat 15px 15px;
+			padding-left: 75px;
+			font-size: 18px;
+			font-family: 'BrooklynSamuelsFive-Fat';
+			color: #009448;
+			display: block;
+			padding-top: 28px;
+			height: 75px;
+
+			span{
+				font-family: 'Gotham-Book';
+				font-size: 14px;
+				display: block;
+			}
+		}	
+	}
+
+	.points{
+		position: relative;
+
+		p{
+			background: #8E3289;
+			position: absolute;
+			display: block;
+			width: 230px;
+			height: 115px;
+			padding: 15px 0;
+			text-align: center;
+			right: -10px;
+
+			span{
+				display: block;
+			}
+		}
+	}
+}
+
+// FOOTER
+.footer {
+        height: 130px;
+        background-image: url("../images/footer.png");
+        background-size: cover;
+        repeat: no-repeat;
+        width: 100%;
+        position: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 0;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        
+
+        img {
+	    margin-top: 15px;
+	    width: 260px;
+	    display: block;
+	    margin: 0 auto;
+	    margin-top: 30px;
+                position: relative;
+                left: 50%;
+                margin-left: -130px;
+                float: left;
+                top: 10px;
+	}
+}
+
+// ==========================================================================
+/* RESPONSIVE  */
+// ==========================================================================
+
+/*mobile--------------------------------------------------*/
+@media screen and (min-width: 0px) and (max-width : 767px){
+    .footer {
+            padding-top: 40px !important;
+    }
+
+    .footer img {
+        margin-top: 0px;
+    }
+
+}
+
+
+/*tablet----------------------------------------*/
+@media screen and (min-width: 768px) and (max-width : 1280px){
+  
+}
+
+/**  TABLETS LANDSCAPE **/
+@media screen and (min-width: 771px) and (max-width : 980px){
+
+}
+
+/*notbook------------------------------------*/
+@media screen and (min-width: 1280px) and (max-width : 1800px){
+	
+}
+
+/*desktop------------------------------*/
+@media screen and (min-width: 1801px) and (max-width : 2200px){
+
+}
+
+/*desktop large-----------------------------------------------*/
+@media screen and (min-width: 2220px) and (max-width : 4000px){
+
+}

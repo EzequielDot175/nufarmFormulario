@@ -1,0 +1,459 @@
+// form fonts
+@font-face {
+	font-family: 'BrandonGrotesque-Medium';
+	src:
+		url('BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype'),
+		url('BrandonGrotesque-Medium.otf')  format('opentype'),
+		url('BrandonGrotesque-Medium.woff') format('woff'),
+		url('BrandonGrotesque-Medium.ttf')  format('truetype'),
+		url('BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+#app-form{
+	// position: relative;
+	.row{
+		margin: 0;
+	}
+
+	width: 100%;
+	background : #2D3D32;
+	background : rgba(45, 61, 50, .45);
+	filter: alpha(opacity=45) progid:DXImageTransform.Microsoft.Alpha(opacity=45);
+
+	.form-header{
+		background : -moz-linear-gradient(50% 100% 90deg,rgba(255, 255, 255, 0.8) 0%,rgba(255, 255, 255, 1) 100%);
+		background : -webkit-linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 1) 100%);
+		background : -webkit-gradient(linear,50% 100% ,50% 0% ,color-stop(0,rgba(255, 255, 255, 0.8) ),color-stop(1,rgba(255, 255, 255, 1) ));
+		background : -o-linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 1) 100%);
+		background : -ms-linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 1) 100%);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF' ,GradientType=0)";
+		background : linear-gradient(0deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 1) 100%);
+		opacity : 0.6;
+		filter: alpha(opacity=60) progid:DXImageTransform.Microsoft.Alpha(opacity=60) progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF',endColorstr='#FFFFFF' , GradientType=0);		
+		height: 75px;
+		text-transform: uppercase;
+
+		p{
+			float: left;
+			background: url('../images/icon-form.png') no-repeat 15px 15px;
+			padding-left: 75px;
+			font-size: 18px;
+			font-family: 'BrooklynSamuelsFive-Fat';
+			color: #009448;
+			display: block;
+			padding-top: 28px;
+			height: 75px;
+
+			span{
+				font-family: 'Gotham-Book';
+				font-size: 14px;
+				display: block;
+			}
+		}
+	}
+
+	.form-steps{
+		max-width: 600px;
+		width: 100%;
+		margin: 20px auto 20px;
+		overflow: hidden;
+
+
+		span{
+			width: 40px;
+			height: 40px;
+			text-align: center;
+			line-height: 29px;
+			float: left;
+			border: 1px solid rgba(255, 255, 255, .4);
+			border-radius: 50%;
+			padding: 5px;
+			display: inline-block;
+			color: white;
+			font-family: 'BrandonGrotesque-Light';
+			font-size: 15px;
+			cursor: pointer;
+		}
+
+		span.active{
+			background: rgba(255, 255, 255, .4);
+			border: 0;
+		}
+
+		p{
+			float: left;
+			width: 8%;
+			line-height: 20px;
+			border-bottom: 1px solid rgba(255, 255, 255, .4);
+		}
+	}
+	.step-content{
+		height: 700px;
+		position: relative;
+
+		.step{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			opacity: 0;
+			&.active{
+				opacity: 1;
+				z-index: 100;
+			}
+		}
+
+	}
+	// .step{
+		// position: absolute;
+		// top: 0;
+		// left: 0;
+		// right: 0;
+		// width: 100%;
+	// }
+
+	section{
+		max-width: 600px;
+		width: 100%;
+		margin: 0 auto;
+		font-family: 'BrandonGrotesque-Light';
+		overflow: hidden;
+		padding-bottom: 20px;
+		// display: none;
+
+		&.active{
+			display: block;
+		}
+
+		p.group-title{
+			border-bottom: 1px solid rgba(255, 255, 255, .45);
+			font-size: 13px;
+			padding-bottom: 4px;
+			text-transform: uppercase;
+			color: white;
+			margin: 20px 0;
+		}
+
+		.col-xs-6 p.group-title{
+			width: 90%;	
+		}
+
+		.form-group{
+			&.email{
+				position: relative;
+				padding-bottom: 20px;
+				margin-bottom: 0;
+
+				p{
+					font-family: 'BrandonGrotesque-Light';
+					color: #BED73B;
+					position: absolute;
+					width: 100%;
+					bottom: 0;
+					left: 0;
+				}
+			}
+
+			.custom-checks{
+				width: 100%;
+
+				li{
+					float: left;
+					width: 50%;
+				}
+			}
+
+			label{
+				display: block;
+				text-transform: uppercase;
+				color: white;
+				margin-bottom: 4px;
+				font-size: 11px;
+			}
+
+			input[type=text], input[type=password]{
+				background: 0;
+				border: 1px solid rgba(255, 255, 255, .45);
+				width: 90%;
+				padding: 0 4%;
+				height: 25px;
+				line-height: 25px;
+				color: rgba(255, 255, 255, .8);
+				font-family: 'Roboto';
+				font-weight: 300;
+			}
+			// custom check boxes
+			input[type=checkbox].css-checkbox {
+				position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+			}
+
+			input[type=checkbox].css-checkbox + label.check-label {
+				padding-left:19px;
+				height:14px; 
+				display:inline-block;
+				line-height:14px;
+				background-repeat:no-repeat;
+				background-position: 0 0;
+				font-size:14px;
+				vertical-align:middle;
+				cursor:pointer;
+				text-transform: none;
+				font-size: 13px;
+				color: rgba(255,255,255, .8);
+				font-family: 'Roboto';
+				font-weight: 300;
+				margin-top: 5px;
+			}
+
+			input[type=checkbox].css-checkbox:checked + label.check-label {
+				background-position: 0 -14px;
+			}
+
+			label.check-label {
+				background-image:url('../images/checkbox.png');
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+			// custom radio buttons
+			input[type=radio].css-checkbox {
+				position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+			}
+
+			input[type=radio].css-checkbox + label.css-label {
+				padding-left:24px;
+				height:19px; 
+				display:inline-block;
+				line-height:19px;
+				background-repeat:no-repeat;
+				background-position: 0 0;
+				font-size:19px;
+				vertical-align:middle;
+				cursor:pointer;
+				text-transform: none;
+				font-size: 13px;
+				color: rgba(255,255,255, .8);
+				font-family: 'Roboto';
+				font-weight: 300;
+				margin-top: 5px;
+			}
+
+			input[type=radio].css-checkbox:checked + label.css-label {
+				background-position: 0 -19px;
+			}
+
+			label.css-label {
+				background-image:url('../images/radiobutton.png');
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+
+			.custom-select{
+				width: 90%;
+				height: 25px;
+				line-height: 25px;
+				background: rgba(255, 255, 255, .20);
+				overflow: hidden;
+				position: relative;
+
+				select{
+					background: none;
+					border: 0;
+					font-size: 13px;
+					width: 120%;
+					color: rgba(255, 255, 255, .8);
+					font-family: 'Roboto';
+					font-weight: 300;
+				}
+
+				i{
+					position: absolute;
+					top: 5px;
+					right: 5px;
+					width: 10px;
+					height: 5px;
+					color: white;
+				}
+			}
+		} //end .form-group
+		
+		.confirm-btn{
+			border-top: 1px solid rgba(255, 255, 255, .45);
+			padding-top: 14px;
+			text-align: center;
+			margin-top: 20px;
+
+			input, button{
+				width: 200px;
+				height: 35px;
+				line-height: 35px;
+				background: #8E3289;
+				border: 0;
+				font-family: 'BrooklynSamuelsFive-Bold';
+				text-transform: uppercase;
+				color: white;
+				font-size: 12px;
+				display: inline-block;
+
+				&:hover{
+					opacity: .8;
+				}
+			}
+		}
+
+		.new-logo{
+			margin-bottom: 20px;
+			
+			label{
+				float: left;
+				width: 40%;
+				text-transform: uppercase;
+				color: white;
+				font-size: 11px;
+			}
+
+			.curr-logo{
+				label{
+					width: 40%;
+				}
+
+				div.logo-display{
+					float: left;
+					width: 50%;
+					height: 80px;
+					background: rgba(255, 255, 255, .2);
+
+					img{
+						height: 100%;
+						width: 100%;
+					}
+				}
+			}//end curr-logo
+
+			.logo-pick{
+				label{
+					width: 100%;
+				}
+
+				input[type=file]{
+					display: none;
+				}
+
+				input[type=submit]{
+					border: 0;
+					background: rgba(255, 255, 255, .2);
+					text-transform: uppercase;
+					color: white;
+					font-size: 11px;
+					font-family: 'BrandonGrotesque-Light';
+					padding: 0 10px;
+					height: 25px;
+					line-height: 25px;
+					margin-top: 10px;
+				}
+
+				#img-name{
+					background: 0;
+					border: 1px solid rgba(255, 255, 255, .45);
+					width: 90%;
+					padding: 0 4%;
+					height: 25px;
+					line-height: 25px;
+					color: rgba(255, 255, 255, .8);
+					font-family: 'Roboto';
+					font-weight: 300;
+				}
+			}
+		}//end new-logo
+
+		.optional-logo{
+			label{
+				float: left;
+				width: 100%;
+				text-transform: uppercase;
+				color: white;
+				font-size: 11px;
+			}
+
+			input[type=file]{
+				display: none;
+			}
+
+			button{
+				border: 0;
+				background: rgba(255, 255, 255, .2);
+				text-transform: uppercase;
+				color: white;
+				font-size: 11px;
+				font-family: 'BrandonGrotesque-Light';
+				padding: 0 10px;
+				height: 25px;
+				line-height: 25px;
+				margin-top: 10px;
+			}
+
+			#other-name{
+				background: 0;
+				border: 1px solid rgba(255, 255, 255, .45);
+				width: 45%;
+				padding: 0 4%;
+				height: 25px;
+				line-height: 25px;
+				color: rgba(255, 255, 255, .8);
+				font-family: 'Roboto';
+				font-weight: 300;
+				clear: right;
+			}
+		}
+
+		.f-team{
+			input[type=submit]{
+				border: 0;
+				background: rgba(255, 255, 255, .2);
+				text-transform: uppercase;
+				color: white;
+				font-size: 11px;
+				font-family: 'BrandonGrotesque-Light';
+				padding: 0 10px;
+				height: 25px;
+				line-height: 25px;
+				margin: 10px 0;
+			}
+		}
+
+		.o-activities{
+			margin-top: 10px;
+
+			button{
+				border: 0;
+				background: rgba(255, 255, 255, .2);
+				text-transform: uppercase;
+				color: white;
+				font-size: 11px;
+				font-family: 'BrandonGrotesque-Light';
+				padding: 0 10px;
+				height: 25px;
+				line-height: 25px;
+				float: left;
+			}
+
+			input[type=text]{
+				float: left;
+				width: 78%;
+				margin-right: 10px;
+			}
+		}
+	}//end section
+}

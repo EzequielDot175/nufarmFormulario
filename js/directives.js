@@ -29,7 +29,6 @@ app.directive('preloaderImg', [ function(){
 						}
 					};
 				});
-			console.info('$scope :', $scope);
 			
 		}
 	};

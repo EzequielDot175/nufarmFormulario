@@ -2,6 +2,10 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 
 	scp.currentUser = [];
 	scp.optionProvinces = [];
+    scp.logoFileName = "";
+    scp.form = false;
+    scp.message = "";
+    scp.save_changes = false;
 
 	/**
 	 * Uploader
@@ -14,6 +18,7 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 	scp.otherFiles = new FileUploader({
         url: 'upload.php'
     });
+
 
 	scp.logo.onWhenAddingFileFailed = function(item /*{File|FileLikeObject}*/, filter, options) {
         console.info('onWhenAddingFileFailed', item, filter, options);
@@ -81,6 +86,10 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
       * End Upload Handler
       */
 
+    scp.showModal = function(){
+        var modal = $('#triggModal');
+        modal.trigger('click');
+    }
 
 
 	var srv = ajax.formInit();
@@ -90,6 +99,7 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 
 
 	srv.getUser(function(a){
+        console.log(a);
 		scp.currentUser = a;
 		scp.company   = a.strEmpresa;
 		scp.direction = a.direccion;
@@ -97,9 +107,14 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 		scp.cod       = a.cp;
 		scp.phone     = a.telefono;
 		scp.province  = a.provincia;
-
+        /**
+         * jQuery Value
+         */
+        $form         = Boolean(parseInt(a.form));
+        scp.form      = Boolean(parseInt(a.form));
+        // scp.logoFileName  = a.logo;
 		if (a.logo != "") {
-			scp.logo = '../marketingNet/images-clientes/'+a.logo;
+			scp.logoEmpresa = '../marketingNet/images-clientes/'+a.logo;
 		};
 
 
@@ -126,12 +141,6 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 
 	}
 
-    scp.ver = function(){
-    	
-    	// scp.otherFiles.clearQueue();
-    	console.info('Reporting :', scp.otherFiles);
-    }
-
     scp.addAlias = function(a){
     	var item = a;
     		item.alias = "uploadFiles";
@@ -143,5 +152,11 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
 		scp.logo.queue[0].alias = "uploadLogo";
 		scp.logo.queue[0].upload();
 	}
+
+
+    scp.confirmForm = function(){
+        // scp.contentModal = "¿Desea continuar con el formulario o desea acceder al programa?";
+        scp.showModal();
+    }
 
 }]);
