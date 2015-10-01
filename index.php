@@ -2,7 +2,6 @@
 @session_start();
 require_once('../core_nufarm/libs.php');
 // Auth::check();
-Auth::sForceAuth(20);
 ?>
 <!DOCTYPE html>
 <html lang="en" ng-app="Nufarm">
@@ -23,8 +22,10 @@ Auth::sForceAuth(20);
 		<div class="col-xs-12 head">
 			<div class="inner">
 				<div class="col-xs-6">
-					<img src="assets/images/logo-green.png" id="Nufarm Gold" title="Nufarm Gold" alt="Imagen no encontrada">
 					<img src="assets/images/logo-white.png" id="Nufarm" title="Nufarm" alt="Imagen no encontrada">
+					<?php if(Auth::User()->gold == 1): ?>
+					<img src="assets/images/logo-green.png" id="Nufarm Gold" title="Nufarm Gold" alt="Imagen no encontrada">
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
