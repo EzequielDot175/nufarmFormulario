@@ -78,7 +78,7 @@ require_once('../core_nufarm/libs.php');
 
 								<div class="col-xs-12">
 									<p class="group-title">
-										Domicio Entrega
+										Domicilio Entrega
 									</p>
 								</div>
 
