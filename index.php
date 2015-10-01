@@ -452,25 +452,6 @@ require_once('../core_nufarm/libs.php');
 
 
 
-<button data-toggle="modal" data-target="#myModal" class="hidden" id="triggModal"></button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" ng-controller="ctrlAppInicio">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Nufarm Maxx</h4>
-      </div>
-      <div class="modal-body" id="contentModal">{{message}}</div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" ng-show="save_changes">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/angular.min.js"></script>

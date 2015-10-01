@@ -110,7 +110,6 @@ app.controller('ctrlAppInicio', ['$scope','ajax','FileUploader', function(scp,aj
         /**
          * jQuery Value
          */
-        $form         = Boolean(parseInt(a.form));
         scp.form      = Boolean(parseInt(a.form));
         // scp.logoFileName  = a.logo;
 		if (a.logo != "") {
