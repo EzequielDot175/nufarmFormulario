@@ -177,7 +177,7 @@ require_once('../core_nufarm/libs.php');
 										<ul ng-repeat="(key, value) in otherFiles.queue | filter:addAlias">
 											<li>
 												<div>
-													{{value.file.name}} <br> <button ng-click="value.upload();">Upload</button> <br> <button ng-click="value.remove();">Delete</button>
+													<p>{{value.file.name}}</p> <button ng-click="value.upload();">confirmar</button> <button ng-click="value.remove();">borrar</button>
 												</div>
 											</li>
 										</ul>
